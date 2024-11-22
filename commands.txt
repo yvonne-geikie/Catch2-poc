@@ -1,0 +1,46 @@
+Brand new build:
+1. Navigate to the `secondCatch2` directory:
+    ```
+    cd /c:/Example/secondCatch2
+    ```
+2. Create a new `build` directory:
+    ```
+    mkdir build
+    ```
+3. Change to the `build` directory:
+    ```
+    cd build
+    ```
+4. Generate the build system files using CMake:
+    ```
+    cmake ..
+    ```
+5. Build the project:
+    ```
+    cmake --build .
+    ```
+
+For small modifications like updating a file, follow these steps:
+1. Ensure you are in the `build` directory:
+    ```
+    cd /c:/Example/secondCatch2/build
+    ```
+2. Regenerate the build system files using CMake:
+    ```
+    cmake ..
+    ```
+3. Rebuild the project:
+    ```
+    cmake --build .
+    ```
+
+To run the executable:
+1. Change to the `Debug` directory:
+    ```
+    cd Debug
+    ```
+2. Execute the test executable:
+    ```
+    .\test_math.exe
+    .\test_string.exe
+    ```

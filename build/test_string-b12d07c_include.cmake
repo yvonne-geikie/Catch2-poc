@@ -1,0 +1,5 @@
+if(EXISTS "C:/Example/secondCatch2/build/test_string-b12d07c_tests.cmake")
+  include("C:/Example/secondCatch2/build/test_string-b12d07c_tests.cmake")
+else()
+  add_test(test_string_NOT_BUILT-b12d07c test_string_NOT_BUILT-b12d07c)
+endif()

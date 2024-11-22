@@ -1,0 +1,7 @@
+C:/Example/secondCatch2/build/CMakeFiles/test_math.dir
+C:/Example/secondCatch2/build/CMakeFiles/test_string.dir
+C:/Example/secondCatch2/build/CMakeFiles/ALL_BUILD.dir
+C:/Example/secondCatch2/build/CMakeFiles/ZERO_CHECK.dir
+C:/Example/secondCatch2/build/external/Catch2/CMakeFiles/ALL_BUILD.dir
+C:/Example/secondCatch2/build/external/Catch2/src/CMakeFiles/Catch2.dir
+C:/Example/secondCatch2/build/external/Catch2/src/CMakeFiles/Catch2WithMain.dir
