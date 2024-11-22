@@ -12,3 +12,18 @@ TEST_CASE("Default construction") {
     String str;
     REQUIRE(strcmp(str.c_str(), "") == 0);
 }
+
+
+// Parameterized test for String construction
+TEST_CASE("String construction and c_str with different inputs", "[String]") {
+    const char* testStrings[] = {
+        "Hello, World!",
+        "Catch2 is great!",
+        "Parameterized tests are useful."
+    };
+
+    for (const char* testString : testStrings) {
+        String str(testString);
+        REQUIRE(strcmp(str.c_str(), testString) == 0);
+    }
+}
