@@ -1,5 +1,0 @@
-if(EXISTS "C:/Example/secondCatch2/build/test_math-b12d07c_tests.cmake")
-  include("C:/Example/secondCatch2/build/test_math-b12d07c_tests.cmake")
-else()
-  add_test(test_math_NOT_BUILT-b12d07c test_math_NOT_BUILT-b12d07c)
-endif()

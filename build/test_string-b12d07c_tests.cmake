@@ -1,5 +1,0 @@
-add_test( [==[String construction and c_str]==] C:/Example/secondCatch2/build/Debug/test_string.exe [==[String construction and c_str]==]  )
-set_tests_properties( [==[String construction and c_str]==] PROPERTIES WORKING_DIRECTORY C:/Example/secondCatch2/build SKIP_RETURN_CODE 4)
-add_test( [==[Default construction]==] C:/Example/secondCatch2/build/Debug/test_string.exe [==[Default construction]==]  )
-set_tests_properties( [==[Default construction]==] PROPERTIES WORKING_DIRECTORY C:/Example/secondCatch2/build SKIP_RETURN_CODE 4)
-set( test_string_TESTS [==[String construction and c_str]==] [==[Default construction]==])
