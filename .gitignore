@@ -1,6 +1,9 @@
 # Ignore build directory
 /build
 
+# Ignore external libraries
+/external
+
 # Other entries can go here
 *.o
 *.exe
